@@ -1,5 +1,7 @@
 ## Sample Python REST API application using [FastAPI](https://fastapi.tiangolo.com/) ,[Uvicorn](https://www.uvicorn.org/#introduction) and [SQLAlchemy](https://www.sqlalchemy.org/)
 
+![alt text](FastAPI.png)
+
 ### FastAPI
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.

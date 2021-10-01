@@ -68,4 +68,4 @@ FastAPI also automatically generated fully interactive API documentation that we
 
 The server will start at <http://localhost:9000/docs>.
 
-Please check my write-up for further details <https://dassum.medium.com/python-rest-apis-with-flask-connexion-and-sqlalchemy-3c8c3292d9ce>
+Please check my write-up for further details <https://dassum.medium.com/building-rest-apis-using-fastapi-sqlalchemy-uvicorn-8a163ccf3aa1>

@@ -37,7 +37,7 @@ It provides a full suite of well known enterprise-level persistence patterns, de
 
 Data validation and settings management using python type annotations.
 
-pydantic enforces type hints at runtime, and provides user friendly errors when data is invalid.
+pydantic enforces type hints at runtime, and provides user-friendly errors when data is invalid.
 
 ## Setting up the VirtualEnv and install dependencies
 
@@ -49,7 +49,7 @@ pipenv install
 
 ```
 
-Dependencies will be installed from the Pipfile. Python version 3.8.7 is used for this project.
+Dependencies will be installed from the Pipfile. Python version 3.9.2 is used for this project.
 
 ## Run the Application
 
@@ -62,10 +62,12 @@ This will start the application on port 9000
 
 ## Test the application
 
-FastAPI also automatically generated fully interactive API documentation that we can use to interact with our API. We can visit http://127.0.0.1:9000/docs in our browser to see the interactive API documentation provided by [Swagger UI](https://github.com/swagger-api/swagger-ui):
+FastAPI also automatically generated fully interactive API documentation that we can use to interact with our API. 
+We can visit http://127.0.0.1:9000/docs in our browser to see the interactive API documentation provided by [Swagger UI](https://github.com/swagger-api/swagger-ui):
 
 ![alt text](sample-FastAPI.png)
 
 The server will start at <http://localhost:9000/docs>.
+
 
 Please check my write-up for further details <https://dassum.medium.com/building-rest-apis-using-fastapi-sqlalchemy-uvicorn-8a163ccf3aa1>

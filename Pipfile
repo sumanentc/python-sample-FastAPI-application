@@ -7,8 +7,9 @@ name = "pypi"
 fastapi = "==0.68.1"
 uvicorn = "==0.15.0"
 sqlalchemy = "==1.4.23"
+httpx = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.9.2"

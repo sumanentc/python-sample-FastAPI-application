@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 class ItemBase(BaseModel):
     name: str
-    price : float
+    price: float
     description: Optional[str] = None
     store_id: int
 
@@ -24,8 +24,10 @@ class Item(ItemBase):
 class StoreBase(BaseModel):
     name: str
 
+
 class StoreCreate(StoreBase):
     pass
+
 
 class Store(StoreBase):
     id: int
@@ -33,3 +35,11 @@ class Store(StoreBase):
 
     class Config:
         orm_mode = True
+
+
+class University(BaseModel):
+    country: Optional[str] = None
+    web_pages: List[str] = []
+    name: Optional[str] = None
+    alpha_two_code: Optional[str] = None
+    domains: List[str] = []
